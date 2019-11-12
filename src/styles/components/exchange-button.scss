@@ -1,0 +1,21 @@
+.exchange-button {
+    width: 100%;
+    padding: 20px 10px;
+    border: none;
+    background: #8e44ad;
+    color: white;
+    font-size: 2rem;
+    margin-top :5px;
+    &:hover {
+        transition: background-color 0.2s linear;
+        background: darken(#8e44ad, 20%);
+        cursor: pointer;
+    }
+    &--disabled {
+        opacity: 0.5;
+        &:hover {
+            background: #8e44ad;
+            cursor: default;
+        }
+    }
+}

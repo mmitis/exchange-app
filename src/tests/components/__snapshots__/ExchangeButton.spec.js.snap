@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: ExchangeButton test simple render - disabled 1`] = `ReactWrapper {}`;
+
+exports[`Component: ExchangeButton test simple render 1`] = `ReactWrapper {}`;

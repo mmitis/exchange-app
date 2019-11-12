@@ -1,0 +1,25 @@
+.exchange-rotate {
+    position: relative;
+    &__button {
+        position: absolute;
+        left: 20px;
+        text-align: center;
+        width: 26px;
+        height: 26px;
+        border: 1px solid white;
+        padding: 5px 0;
+        border-radius: 13px;
+        color: white;
+        margin-top: -13px;
+        background: $color-background-alternative;
+
+        .material-icons {
+            font-size: 1.3rem;
+
+        }
+        &:hover {
+            transition: background-color 0.2s linear;
+            background: darken($color-background-alternative, 10%);
+        }
+    }
+}

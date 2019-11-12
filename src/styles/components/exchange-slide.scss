@@ -1,0 +1,24 @@
+.exchange-slide {
+        display: flex;
+        flex-direction: row;
+        width: calc(100% + 80px);
+        margin-left: -40px;
+
+        &__button {
+            background: $color-background-alternative;
+            border: none; 
+            margin: 0;
+            padding: 0;
+            width: 43px;
+            border:1px solid $color-background-alternative;
+
+            .material-icons {
+                font-size: 2.3rem;
+                color: #ffffff;
+            }
+            &:hover {
+                transition: background-color 0.2s linear;
+                background: darken($color-background-alternative, 10%);
+            }
+        }
+}
